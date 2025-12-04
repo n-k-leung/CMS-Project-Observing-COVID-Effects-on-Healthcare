@@ -5,6 +5,7 @@ This project explores how COVID has affected healthcare providers and services i
 2. How has COVID-19 affected patient demographics and population reach, particularly in terms of age, sex, and race?
 3. In what ways has COVID-19 affected the Medicare coverage of the numbers of beneficiaries diagnosed with chronic disease and disorders?
 4. What effects has COVID-19 had on both the provider services cost and the financial burden on the patients?
+
 Link to data from the CMS.gov:
 https://data.cms.gov/provider-summary-by-type-of-service/medicare-physician-other-practitioners/medicare-physician-other-practitioners-by-geography-and-service 
 
