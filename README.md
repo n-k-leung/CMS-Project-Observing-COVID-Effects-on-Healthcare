@@ -5,9 +5,14 @@ This project explores how COVID has affected healthcare providers and services i
 2. How has COVID-19 affected patient demographics and population reach, particularly in terms of age, sex, and race?
 3. In what ways has COVID-19 affected the Medicare coverage of the numbers of beneficiaries diagnosed with chronic disease and disorders?
 4. What effects has COVID-19 had on both the provider services cost and the financial burden on the patients?
+Link to data from the CMS.gov:
+https://data.cms.gov/provider-summary-by-type-of-service/medicare-physician-other-practitioners/medicare-physician-other-practitioners-by-geography-and-service 
 
+https://data.cms.gov/provider-summary-by-type-of-service/medicare-physician-other-practitioners/medicare-physician-other-practitioners-by-provider
+
+https://data.cms.gov/provider-summary-by-type-of-service/medicare-physician-other-practitioners/medicare-physician-other-practitioners-by-provider-and-service 
 ## Folders/Files
-* csv_files:
+* csv_files (in zip_data zip folder)
     * holds csv files of normalized tables that will be loaded into MySQL
 * ER_diagrams
     * includes our logical and conceptual ER diagram pictures
@@ -18,7 +23,7 @@ This project explores how COVID has affected healthcare providers and services i
         * load_data: how we load in the data from our csv_files to MySQL as we did not use import wizard as files are quite large
     * queries 
         * all queries used for this project in .sql format
-* original_downloaded_data_files
+* original_downloaded_data_files (in zip_data zip folder)
     * datasets and data dictionaries retrieved from cms.org that we scrapped
 * python_files_cleaning_dataset
     * scrapped datasets in csv files that are referenced in our cleaning files
@@ -33,6 +38,9 @@ The pdf file goes over an example on how to load in the data after adjusting the
 ## Running Steps
 1. download the github zip file and extract it to a designated location
 2. creating the csv files to use for the MySQL database
+    * download and extract the zip folder called zip_data from: https://drive.google.com/file/d/1Kke-C4_JvI7RbU9G986I-fDJgxyOnY-N/view?usp=sharing 
+    * open the zip folder and there are there are 6 csv files under original_downloaded_data_files
+    * move files to the python_files_cleaning_dataset so they can be accessed by the ipynb files
     * open the create_schema_Geography_Service.ipynb file and run it
         * this will take care of using the original geography datasets (2019&2023) by combining them, cleaning the data, and normalizing it into tables
     * open the create_schema_Providers.ipynb file and run it
